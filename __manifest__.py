@@ -25,6 +25,9 @@
         # 'security/ir.model.access.csv',
         'views/view_ciclo.xml',
         'views/view_modulo.xml',
+        'views/view_alumno.xml',
+        'views/view_profesor.xml',
+        'views/view_menuitems.xml',
     ],
 }
 

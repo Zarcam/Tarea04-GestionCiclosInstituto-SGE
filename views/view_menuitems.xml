@@ -6,5 +6,6 @@
         <menuitem name="Ciclos" id="gestion_ciclos_menu_ciclos" parent="gestion_ciclos_menu_root" action="action_lista_ciclos"/>
         <menuitem name="Modulos" id="gestion_ciclos_menu_modulos" parent="gestion_ciclos_menu_root" action="action_lista_modulos"/>
         <menuitem name="Alumnos" id="gestion_ciclos_menu_alumnos" parent="gestion_ciclos_menu_root" action="action_lista_alumnos"/>
+        <menuitem name="Profesores" id="gestion_ciclos_menu_profesores" parent="gestion_ciclos_menu_root" action="action_lista_profesores"/>
     </data>
 </odoo>
