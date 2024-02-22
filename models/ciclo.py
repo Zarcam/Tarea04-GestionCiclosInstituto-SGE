@@ -8,4 +8,11 @@ class ciclo(models.Model):
     nombre = fields.Char(
         string='Ciclo'
     )
+
+    modulo_ids = fields.One2many(
+        string='Modulo',
+        comodel_name='gestion_ciclos_instituto',
+        inverse_name='ciclo_id',
+    )
+    
     
