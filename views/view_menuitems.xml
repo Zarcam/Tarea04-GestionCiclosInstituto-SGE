@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <menuitem name="Gestion Ciclos" id="gestion_ciclos_menu_root"/>
+
+        <menuitem name="Ciclos" id="gestion_ciclos_menu_ciclos" parent="gestion_ciclos_menu_root" action="action_lista_ciclos"/>
+    </data>
+</odoo>
