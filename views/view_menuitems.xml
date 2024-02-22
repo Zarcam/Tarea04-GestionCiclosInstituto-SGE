@@ -4,5 +4,6 @@
         <menuitem name="Gestion Ciclos" id="gestion_ciclos_menu_root"/>
 
         <menuitem name="Ciclos" id="gestion_ciclos_menu_ciclos" parent="gestion_ciclos_menu_root" action="action_lista_ciclos"/>
+        <menuitem name="Modulos" id="gestion_ciclos_menu_modulos" parent="gestion_ciclos_menu_root" action="action_lista_modulos"/>
     </data>
 </odoo>

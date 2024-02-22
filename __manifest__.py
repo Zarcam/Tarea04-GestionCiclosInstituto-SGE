@@ -24,6 +24,7 @@
     'data': [
         # 'security/ir.model.access.csv',
         'views/view_ciclo.xml',
+        'views/view_modulo.xml',
     ],
 }
 

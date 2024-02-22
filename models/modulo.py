@@ -5,7 +5,7 @@ class modulo(models.Model):
     _description = 'Modulo de un ciclo formativo'
     _rec_name = 'nombre'
 
-    nombre = fields.Char(
+    modulo = fields.Char(
         string='Modulo',
     )
 

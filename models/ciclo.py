@@ -5,7 +5,7 @@ class ciclo(models.Model):
     _description = 'Ciclo formativo'
     _rec_name = 'nombre'
 
-    nombre = fields.Char(
+    ciclo = fields.Char(
         string='Ciclo'
     )
 
