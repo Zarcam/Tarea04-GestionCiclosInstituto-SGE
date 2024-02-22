@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_gestion_ciclos_instituto_gestion_ciclos_instituto,gestion_ciclos_instituto.gestion_ciclos_instituto,model_gestion_ciclos_instituto_gestion_ciclos_instituto,base.group_user,1,1,1,1
