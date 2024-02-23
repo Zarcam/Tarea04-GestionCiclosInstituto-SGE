@@ -3,7 +3,7 @@ from odoo import models, fields
 class ciclo(models.Model):
     _name = 'gestion_ciclos_instituto.ciclo'
     _description = 'Ciclo formativo'
-    _rec_name = 'nombre'
+    _rec_name = 'ciclo'
 
     ciclo = fields.Char(
         string='Ciclo'
