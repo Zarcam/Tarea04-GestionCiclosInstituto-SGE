@@ -9,7 +9,7 @@
 
         <record id="view_modulo" model="ir.ui.view">
             <field name="name">Modulos</field>
-            <field name="model">gestion_ciclos_instituto.ciclo</field>
+            <field name="model">gestion_ciclos_instituto.modulo</field>
             <field name="arch" type="xml">
                 <tree>
                     <field name="modulo"/>

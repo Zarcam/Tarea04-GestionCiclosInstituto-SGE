@@ -11,14 +11,16 @@ class modulo(models.Model):
     
     ciclo_id = fields.Many2one(
         string='Ciclo',
-        comodel_name='gestion_ciclos_instituto.modulo',
+        comodel_name='gestion_ciclos_instituto.ciclo',
         ondelete='cascade',
     )
     
-
     alumno_ids = fields.Many2many(
         string='Alumnos',
-        comodel_name='gestion_ciclo_instituto.alumno',
+        comodel_name='gestion_ciclos_instituto.alumno',
+        relation='modulos_alumnos_rel',
+        column1='modulo_id',
+        column2='alumno_id',
     )
     
     profesor_id = fields.Many2one(

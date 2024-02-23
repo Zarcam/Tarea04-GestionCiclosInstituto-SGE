@@ -17,9 +17,12 @@ class alumno(models.Model):
         string='DNI',
     )
     
-    modulos_ids = fields.Many2many(
+    modulo_ids = fields.Many2many(
         string='Modulos',
-        comodel_name='gestion_ciclo_instituto.modulo',
+        comodel_name='gestion_ciclos_instituto.modulo',
+        relation='modulos_alumnos_rel',
+        column1='alumno_id',
+        column2='modulo_id',
     )
     
     
