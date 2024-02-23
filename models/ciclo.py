@@ -11,7 +11,7 @@ class ciclo(models.Model):
 
     modulo_ids = fields.One2many(
         string='Modulo',
-        comodel_name='gestion_ciclos_instituto',
+        comodel_name='gestion_ciclos_instituto.modulo',
         inverse_name='ciclo_id',
     )
     

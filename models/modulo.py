@@ -8,6 +8,13 @@ class modulo(models.Model):
     modulo = fields.Char(
         string='Modulo',
     )
+    
+    ciclo_id = fields.Many2one(
+        string='Ciclo',
+        comodel_name='gestion_ciclo_instituto.modulo',
+        ondelete='cascade',
+    )
+    
 
     alumno_ids = fields.Many2many(
         string='Alumnos',
