@@ -11,7 +11,7 @@ class modulo(models.Model):
     
     ciclo_id = fields.Many2one(
         string='Ciclo',
-        comodel_name='gestion_ciclo_instituto.modulo',
+        comodel_name='gestion_ciclos_instituto.modulo',
         ondelete='cascade',
     )
     
