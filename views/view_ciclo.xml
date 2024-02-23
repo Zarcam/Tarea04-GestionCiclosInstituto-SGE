@@ -8,7 +8,7 @@
 
         <record id="view_ciclo" model="ir.ui.view">
             <field name="name">Ciclos</field>
-            <field name="model">gestion_ciclo_instituto.ciclo</field>
+            <field name="model">gestion_ciclos_instituto.ciclo</field>
             <field name="arch" type="xml">
                 <tree>
                     <field name="ciclo"/>
