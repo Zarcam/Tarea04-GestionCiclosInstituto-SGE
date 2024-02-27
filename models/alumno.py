@@ -24,6 +24,14 @@ class alumno(models.Model):
         column1='alumno_id',
         column2='modulo_id',
     )
+ 
+    profesores = fields.Many2one(
+        string='profesores',
+        comodel_name='gestion_ciclos_instituto.profesor',
+        related='modulo_ids.profesor_id',
+        readonly=True,
+    )
+    
     
     
     

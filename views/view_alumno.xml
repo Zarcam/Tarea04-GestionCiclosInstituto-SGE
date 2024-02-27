@@ -16,6 +16,7 @@
                     <field name="apellidos"/>
                     <field name="dni"/>
                     <field name="modulo_ids"/>
+                    <field name="profesores"/>
                 </tree>
             </field>
         </record>
